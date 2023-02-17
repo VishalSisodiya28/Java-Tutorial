@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+   int n=5;
+   int sum=0;
+   int iter=0;
+   for(int i=0;iter<n;i++){
+       if(i%3==0&&i%2==0){
+           sum=sum+i;
+           iter++;
+       }
+   }
+   printf("%d",sum);
+    return 0;
+}
